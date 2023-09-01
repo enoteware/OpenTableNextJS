@@ -14,11 +14,11 @@ const fetchRestaurantMenu = async (slug: string) => {
     },
   });
 
-  if (!restaurant) {
-    throw new Error();
-  }
+  // if (!restaurant) {
+  //   throw new Error();
+  // }
 
-  return restaurant.items;
+  return restaurant ? restaurant.items : [];
 };
 
 export default async function RestaurantMenu({

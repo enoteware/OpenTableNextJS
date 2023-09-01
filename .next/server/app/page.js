@@ -570,7 +570,7 @@ async function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [238,418,10,151,455], () => (__webpack_exec__(90017)));
+var __webpack_exports__ = __webpack_require__.X(0, [238,418,564,151,455], () => (__webpack_exec__(90017)));
 module.exports = __webpack_exports__;
 
 })();
